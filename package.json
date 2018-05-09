@@ -1,0 +1,36 @@
+{
+  "name": "diana-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  },
+  "dependencies": {
+    "aws4": "^1.6.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "mongoose": "^5.0.7",
+    "random-item": "^1.0.0",
+    "random-number-generator": "^1.0.2",
+    "regex": "^0.1.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "twit": "^2.2.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evolvus/diana-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Evolvus/diana-server/issues"
+  },
+  "homepage": "https://github.com/Evolvus/diana-server#readme",
+  "description": ""
+}
